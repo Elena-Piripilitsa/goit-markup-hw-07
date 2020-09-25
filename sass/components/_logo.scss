@@ -8,8 +8,8 @@
     line-height: 1.19;
     text-decoration: none;
     color: $primary-text-color;
-}
 
-.logo > span{
-    color: $accent-color;
+    & > span{
+        color: $accent-color;
+    }
 }

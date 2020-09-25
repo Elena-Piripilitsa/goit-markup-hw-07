@@ -1,8 +1,9 @@
-.section-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+.feature .container{
+    padding: 94px 0px 94px;
+}
+
+.feature-title{
+    @extend %title;
 }
 
 .icon-feature-list{
@@ -17,23 +18,10 @@
     background: $accessorial-background-color;
 }
 
-.feature-title,
-.footer-title,
-.service-item-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
-
 .section-item{
     color: $secondary-text-color;
     line-height: 1.71;
     margin: 0;
-}
-
-.feature .container{
-    padding: 94px 0px 94px;
 }
 
 .feature-list{
@@ -42,16 +30,10 @@
     margin: 0;
 }
 
-.feature-list-item:not(:last-child),
-.service-item:not(:last-child){
-    margin-right: 30px;
-}
-
 .feature-list-item{
     width: calc((100%-3*30)/4);
-}
 
-.subtitle{
-    margin-top: 0;
-    margin-bottom: 10px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }

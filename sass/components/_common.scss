@@ -47,6 +47,18 @@ img, svg{
     justify-content: flex-end;
 }
 
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.subtitle{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
